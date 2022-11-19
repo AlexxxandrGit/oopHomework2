@@ -9,25 +9,25 @@ public class Human {
 
         if (yearOfBirth < 0) {
             this.yearOfBirth = 0;
-        } else{
+        } else {
             this.yearOfBirth = yearOfBirth;
         }
 
         if (name == null || name.isEmpty() || name.isBlank()) {
             this.name = " Информация не указана";
-        } else{
+        } else {
             this.name = name;
         }
 
         if (town == null || town.isEmpty() || town.isBlank()) {
             this.town = " Информация не указана";
-        } else{
+        } else {
             this.town = town;
         }
 
         if (job == null || job.isEmpty() || job.isBlank()) {
             this.job = " Информация не указана";
-        } else{
+        } else {
             this.job = job;
         }
 
@@ -41,7 +41,7 @@ public class Human {
     public void setYearOfBirth(int yearOfBirth) {
         if (yearOfBirth < 0) {
             this.yearOfBirth = 0;
-        } else{
+        } else {
             this.yearOfBirth = yearOfBirth;
         }
     }
@@ -53,7 +53,7 @@ public class Human {
     public void setTown(String town) {
         if (town.isEmpty()) {
             this.town = " Информация не указана";
-        } else{
+        } else {
             this.town = town;
         }
     }

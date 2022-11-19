@@ -24,8 +24,7 @@ public class Car {
                double engineVolume,
                String color,
                int productionYear,
-               String productionCountry,Key key,Insurance insurance) {
-
+               String productionCountry, Key key, Insurance insurance) {
 
 
         if (brand == null) {
@@ -64,7 +63,6 @@ public class Car {
         } else {
             this.insurance = insurance;
         }
-
 
 
         this.transmission = "АКПП";
@@ -157,7 +155,7 @@ public class Car {
             return false;
         }
         char[] chars = registrationNumber.toCharArray();
-        if (!Character.isAlphabetic(chars[0])||!Character.isAlphabetic(chars[4])|| !Character.isAlphabetic(chars[5])) {
+        if (!Character.isAlphabetic(chars[0]) || !Character.isAlphabetic(chars[4]) || !Character.isAlphabetic(chars[5])) {
             return false;
         }
         return Character.isDigit(chars[1]) && Character.isDigit(chars[2]) && Character.isDigit(chars[3]) && Character.isDigit(chars[6]) &&
@@ -242,8 +240,6 @@ public class Car {
                 System.out.println("Номер страховки не корректный");
             }
         }
-
-
 
 
     }
