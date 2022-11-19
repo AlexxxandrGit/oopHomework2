@@ -38,11 +38,11 @@ public class Main {
         printInfoFlower(gypsophila);
 
 
-        Car lada = new Car("Lada", "Grande", 1.7, "желтый", 2015, "Россия",new Car.Key(),new Car.Insurance());
-        Car audi = new Car("Audi", "A8 50 L TDI quattro", 3, "черный", 0, "Германия", null,null);
-        Car bmw = new Car("BMW", null, 3, null, 0, "Германии",null,null);
-        Car kia = new Car("Kia", "Sportage 4 поколение", 2.4, "красный", 2018, "Южной Корея", null,null);
-        Car hyundai = new Car("Hyundai", "Avante", 1.4, "оранжевый", 2016, "Южной Корея", null,null);
+        Car lada = new Car("Lada", "Grande", 1.7, "желтый", 2015, "Россия", new Car.Key(), new Car.Insurance());
+        Car audi = new Car("Audi", "A8 50 L TDI quattro", 3, "черный", 0, "Германия", null, null);
+        Car bmw = new Car("BMW", null, 3, null, 0, "Германии", null, null);
+        Car kia = new Car("Kia", "Sportage 4 поколение", 2.4, "красный", 2018, "Южной Корея", null, null);
+        Car hyundai = new Car("Hyundai", "Avante", 1.4, "оранжевый", 2016, "Южной Корея", null, null);
 
         audi.setRegistrationNumber("вариатор");
         bmw.setSummerTyres(false);
